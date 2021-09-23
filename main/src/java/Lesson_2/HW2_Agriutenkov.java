@@ -1,7 +1,5 @@
 package Lesson_2;
 
-
-
 public class HW2_Agriutenkov {
 
         public final int SIZE = 4;
@@ -11,7 +9,7 @@ public class HW2_Agriutenkov {
 //                {"1", "1", "1", "1"},
 //                {"1", "1", "1", "1"},
 //                {"1", "1", "1", "1"},
-//                {"1", "1", "1", "1", "одын"}
+//                {"1", "1", "1", "1", "один"}
 //        };
             String array[][] = {
                     {"1", "1", "1", "1"},
