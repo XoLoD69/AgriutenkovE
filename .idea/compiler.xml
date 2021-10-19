@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AgriutenkovE" target="1.8" />
+      <module name="java2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AgriutenkovE" options="-XDcompilePolicy=simple &quot;-Xplugin:ErrorProne&#10;                                    &#10;                                    -XepExcludedPaths:.*/src/test/java/.*&#10;                                    &#10;                                    &#10;                                    &#10;                                    &#10;                                    -Xep:BoxedPrimitiveEquality:ERROR&#10;                                    &#10;                                    &#10;                                    &#10;                                    &#10;                                    -Xep:UnusedVariable:OFF&#10;                                    &#10;                                    -Xep:EqualsHashCode:OFF&#10;                                    &#10;                                    -Xep:MissingSummary:OFF -Xep:InvalidInlineTag:OFF -Xep:EmptyBlockTag:OFF -Xep:AlmostJavadoc:OFF -Xep:InvalidLink:OFF&#10;                                    &#10;                                    -Xep:UnnecessaryParentheses:OFF&#10;                                    &#10;                                    -Xep:InconsistentCapitalization:OFF&#10;                                    &#10;                                    -Xep:FallThrough:OFF&#10;                                    &#10;                                    -Xep:BadImport:OFF&#10;                                    &#10;                                    -Xep:MissingCasesInEnumSwitch:OFF&#10;                                    &#10;                                    -Xep:JavaLangClash:OFF&#10;                                    &#10;                                    -Xep:ProtectedMembersInFinalClass:OFF&#10;                                    &#10;                                    -Xep:PublicConstructorForAbstractClass:OFF&#10;                                    &#10;                                    -Xep:EmptyCatch:OFF -Xep:EqualsGetClass:OFF&#10;                                    &#10;                                    -Xep:MixedMutabilityReturnType:OFF&#10;                                    &#10;                                    -Xep:TypeParameterUnusedInFormals:OFF&#10;                                    &#10;                                    -Xep:JdkObsolete:OFF&#10;                                    &#10;                                    -Xep:JUnit3FloatingPointComparisonWithoutDelta:OFF&#10;                                    &#10;                                    -Xep:StringSplitter:OFF&#10;                                    &#10;                                    -Xep:AnnotateFormatMethod:OFF -Xep:GuardedBy:OFF&#10;                                    &#10;                                    -Xep:ReferenceEquality:OFF&quot;" />
+    </option>
+  </component>
+</project>
